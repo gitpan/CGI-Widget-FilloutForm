@@ -1,0 +1,41 @@
+CGI::Widget::FilloutForm - HTML fillout form widget
+
+DESCRIPTION
+
+CGI::Widget::FilloutForm encapsulates an HTML fill-out form in a Perl class,
+with customizable field names, lengths, types, labels, etc.
+It provides built-in functionality for verifying that required fields
+have been filled out, a summary page which shows all data that was entered,
+and customizable form headers/footers and informational messages.
+
+Can be used as a standalone widget, or can be subclassed with overridden
+methods and/or called by method to generate forms within a pre-existing
+application.
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make install
+
+COPYRIGHT AND LICENCE
+
+(c) Adi Fairbank
+
+This module is free software; you can redistribute it and/or modify it
+under the terms of either:
+
+  a) the GNU General Public License as published by the Free Software
+     Foundation; either version 1, or (at your option) any later version,
+
+  or
+
+  b) the "Artistic License" which comes with this module.
+
+AUTHOR
+
+Adi Fairbank
+adi@adiraj.org
+April 1, 2004

@@ -1,0 +1,8 @@
+ARTISTIC
+Changes
+GPL
+MANIFEST
+Makefile.PL
+README
+lib/CGI/Widget/FilloutForm/Base.pm
+lib/CGI/Widget/FilloutForm.pm
